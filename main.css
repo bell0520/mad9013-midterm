@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    font-family: Lato, sans-serif;
+}
+
+p {
+    padding: 1em 0 1em 0;
+}
+
+img{
+    padding-bottom: 1em;
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper{
+    background-color: #C0DDFF;
+    width: 100%;
+    padding: 0;
+}
+
+.masthead{
+    padding: 1em;
+    border-bottom: 3px solid #3E5C7F;
+    width: 100%;
+    background-color: #6393CC;
+    background-image: url("http://lorempixel.com/600/400/cats/");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 4.236vh;
+    color: #FFF;
+}
+
+.mainnav{
+    margin: 0;
+    padding: 1em;
+    width: 100%;
+    background-color: #3E5C7F;
+    text-align: center;
+    display: inline-block;
+    font-size: 2.618vh;
+}
+
+nav a, nav a:link, nav a:visited{
+    color: #C0DDFF;
+    text-decoration: none;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    box-flex: 1;    
+}
+
+h3{
+    font-size: 2.618vh;
+}
+
+h2{
+    font-size: 2.618vh;
+}
+
+.content{
+    padding: 1em;
+    width: 100%;
+    background-color: #C0DDFF;
+    text-align: justify;
+    font-size: 2vh;
+}
+
+.side{
+    padding: 1em;
+    width: 100%;
+    background-color: #6393CC;
+    text-align: justify;
+    font-size: 2vh;
+}
+
+.footer{
+    background-color: #3E5C7F;
+    padding: 1em;
+    width: 100%;
+    clear: both;
+}
+
+@media (min-width: 35em) and (max-width: 60em){   
+
+    .mainnav{
+        width: 100%;
+    }
+    
+    nav li{
+        display: inline-block;
+        width: 24%;
+        text-align: center;
+    }
+    
+    .content{
+        width: 63%;
+        float:left;
+    }
+    
+    .side{
+        width: 37%;
+        margin-left: 63%;
+    }
+}
+
+@media (min-width: 60em){
+      
+    .masthead{
+        width: 100%;
+    }
+    
+    .mainnav{
+        width: 25%;
+        float: left;
+        display: block;
+        background-image: url("http://lorempixel.com/600/400/cats/");
+        background-repeat: no-repeat;
+        padding-bottom: 99999px;
+        margin-bottom: -99999px;
+        overflow: hidden;
+    }
+
+    .content{
+        width: 50%;
+        -webkit-column-count: 2;
+        -webkit-column-gap: 1em;
+        float: left;
+    }
+    
+    .side{
+        width: 25%;
+        margin-left: 75%;
+    }
+    
+    .footer{
+        width: 1600px;
+        z-index: 1;
+    }
+}  
+    
+}
