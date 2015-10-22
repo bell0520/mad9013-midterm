@@ -106,8 +106,27 @@ h2{
     }
     
     .side{
+        height: 3300px;
         width: 37%;
         margin-left: 63%;
+    }
+}
+
+@media (min-width: 40em){
+    .side{
+        height: 2800px;
+    }
+}
+
+@media (min-width: 45em){
+    .side{
+        height: 2500px;
+    }
+}
+
+@media (min-width: 55em){
+    .side{
+        height: 2200px;
     }
 }
 
@@ -119,13 +138,11 @@ h2{
     
     .mainnav{
         width: 25%;
+        height: 2800px;
         float: left;
         display: block;
         background-image: url("http://lorempixel.com/600/400/cats/");
         background-repeat: no-repeat;
-        padding-bottom: 99999px;
-        margin-bottom: -99999px;
-        overflow: hidden;
         text-align: justify;
     }
 
@@ -137,14 +154,25 @@ h2{
     }
     
     .side{
+        height: 2800px;
         width: 25%;
         margin-left: 75%;
     }
     
     .footer{
         width: 1600px;
-        z-index: 1;
     }
 }  
+
+@media screen and (min-width: 80em){
     
+    .mainnav{
+        height: 2200px;
+    }
+    
+    .side{
+        height: 2200px;
+    }
+}
+
 }
