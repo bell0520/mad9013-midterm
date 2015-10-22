@@ -91,6 +91,7 @@ h2{
 
     .mainnav{
         width: 100%;
+        text-align: justify;
     }
     
     nav li{
@@ -125,6 +126,7 @@ h2{
         padding-bottom: 99999px;
         margin-bottom: -99999px;
         overflow: hidden;
+        text-align: justify;
     }
 
     .content{
